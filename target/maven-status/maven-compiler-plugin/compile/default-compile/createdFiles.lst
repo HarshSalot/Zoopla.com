@@ -1,0 +1,8 @@
+com\zoopla\pages\BasePage.class
+com\zoopla\pages\ForSalePage.class
+com\zoopla\pages\PropertyDtlPage.class
+com\zoopla\util\TimeUtil.class
+com\zoopla\util\Constants.class
+com\zoopla\listeners\TestAllureListener.class
+com\zoopla\pages\AgentDetailsPage.class
+com\zoopla\pages\HomePage.class

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Zoopla Test Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.zoopla.listeners.TestAllureListener" />
+	</listeners>
+
+	<test name="Zoopla.com">
+		<classes>
+			<class name="com.zoopla.tests.HomePageTest"/>
+     		<class name="com.zoopla.tests.ForSalePageTest"/>
+      		<class name="com.zoopla.tests.PropertyDtlPageTest"/>
+      		<class name="com.zoopla.tests.AgentDetailsPageTest"/>
+		</classes>
+	</test>
+</suite>

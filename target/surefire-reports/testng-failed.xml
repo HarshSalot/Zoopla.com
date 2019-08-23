@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Zoopla Test Suite]">
+  <listeners>
+    <listener class-name="com.zoopla.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Zoopla.com(failed)">
+    <classes>
+      <class name="com.zoopla.tests.AgentDetailsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAgentDetailTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zoopla.tests.AgentDetailsPageTest -->
+    </classes>
+  </test> <!-- Zoopla.com(failed) -->
+</suite> <!-- Failed suite [Zoopla Test Suite] -->

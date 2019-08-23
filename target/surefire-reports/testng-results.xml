@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Zoopla Test Suite" duration-ms="87996" started-at="2019-08-23T05:46:18Z" finished-at="2019-08-23T05:47:46Z">
+    <groups>
+    </groups>
+    <test name="Zoopla.com" duration-ms="87996" started-at="2019-08-23T05:46:18Z" finished-at="2019-08-23T05:47:46Z">
+      <class name="com.zoopla.tests.ForSalePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.tests.ForSalePageTest@7d121c]" name="setUp" is-config="true" duration-ms="11222" started-at="2019-08-23T05:46:37Z" finished-at="2019-08-23T05:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllPropertiesPrice()[pri:0, instance:com.zoopla.tests.ForSalePageTest@7d121c]" name="getAllPropertiesPrice" duration-ms="3271" started-at="2019-08-23T05:46:48Z" finished-at="2019-08-23T05:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPropertiesPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.tests.ForSalePageTest@7d121c]" name="tearDown" is-config="true" duration-ms="779" started-at="2019-08-23T05:46:51Z" finished-at="2019-08-23T05:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.tests.ForSalePageTest -->
+      <class name="com.zoopla.tests.PropertyDtlPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.tests.PropertyDtlPageTest@1aa6596]" name="setUp" is-config="true" duration-ms="22541" started-at="2019-08-23T05:46:52Z" finished-at="2019-08-23T05:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAgentDetailTest()[pri:0, instance:com.zoopla.tests.PropertyDtlPageTest@1aa6596]" name="getAgentDetailTest" duration-ms="212" started-at="2019-08-23T05:47:15Z" finished-at="2019-08-23T05:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgentDetailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.tests.PropertyDtlPageTest@1aa6596]" name="tearDown" is-config="true" duration-ms="812" started-at="2019-08-23T05:47:15Z" finished-at="2019-08-23T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.tests.PropertyDtlPageTest -->
+      <class name="com.zoopla.tests.AgentDetailsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.tests.AgentDetailsPageTest@1389cb8]" name="setUp" is-config="true" duration-ms="29214" started-at="2019-08-23T05:47:16Z" finished-at="2019-08-23T05:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyAgentDetailTest()[pri:0, instance:com.zoopla.tests.AgentDetailsPageTest@1389cb8]" name="verifyAgentDetailTest" duration-ms="50" started-at="2019-08-23T05:47:45Z" finished-at="2019-08-23T05:47:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Equity - Hertford Road, EN3] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Equity - Hertford Road, EN3] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.zoopla.tests.AgentDetailsPageTest.verifyAgentDetailTest(AgentDetailsPageTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgentDetailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.tests.AgentDetailsPageTest@1389cb8]" name="tearDown" is-config="true" duration-ms="779" started-at="2019-08-23T05:47:46Z" finished-at="2019-08-23T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.tests.AgentDetailsPageTest -->
+      <class name="com.zoopla.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.tests.HomePageTest@625ccd]" name="setUp" is-config="true" duration-ms="5684" started-at="2019-08-23T05:46:18Z" finished-at="2019-08-23T05:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyhomePageTitleTest()[pri:0, instance:com.zoopla.tests.HomePageTest@625ccd]" name="verifyhomePageTitleTest" duration-ms="391" started-at="2019-08-23T05:46:24Z" finished-at="2019-08-23T05:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.tests.HomePageTest@625ccd]" name="tearDown" is-config="true" duration-ms="754" started-at="2019-08-23T05:46:25Z" finished-at="2019-08-23T05:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.tests.HomePageTest@625ccd]" name="setUp" is-config="true" duration-ms="4899" started-at="2019-08-23T05:46:26Z" finished-at="2019-08-23T05:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifysearchLocation()[pri:0, instance:com.zoopla.tests.HomePageTest@625ccd]" name="verifysearchLocation" duration-ms="5708" started-at="2019-08-23T05:46:30Z" finished-at="2019-08-23T05:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchLocation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.tests.HomePageTest@625ccd]" name="tearDown" is-config="true" duration-ms="785" started-at="2019-08-23T05:46:36Z" finished-at="2019-08-23T05:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.tests.HomePageTest -->
+    </test> <!-- Zoopla.com -->
+  </suite> <!-- Zoopla Test Suite -->
+</testng-results>
